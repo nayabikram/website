@@ -1,0 +1,53 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Nayab Ikram - Visual Artist"
+theme = "hugo-xmin"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
+staticDir = "static"
+sectionPagesMenu = "main"
+
+[menu]
+    [[menu.main]]
+    name = "IN BETWEEN I"
+    url = "/"
+    weight = 1
+    [[menu.main]]
+    name = "IN BETWEEN II"
+    url = "/inbetween-2/"
+    weight = 2
+    [[menu.main]]
+    name = "IN BETWEEN III"
+    url = "/inbetween-3/"
+    weight = 3
+    [[menu.main]]
+    name = "DISTORTION"
+    url = "/distortion/"
+    weight = 4
+    [[menu.main]]
+    name = "ARCHIVED I"
+    url = "/archived/"
+    weight = 5
+    [[menu.main]]
+    name = "ARCHIVED II"
+    url = "/archived-2/"
+    weight = 6
+    [[menu.main]]
+    name = "THE REST, WAS A DREAM"
+    url = "/the-rest-was-a-dream/"
+    weight = 7
+    [[menu.main]]
+    name = "ABOUT"
+    url = "/about/"
+    weight = 8            
+    [[menu.main]]
+    name = "BUY ART?"
+    url = "/buy-art/"
+    weight = 9      
+
+[params]
+    description = "NAYAB IKRAM PHOTOGRAPHER"
+    footer = "&copy; NAYAB IKRAM 2017 -- 2018 | [INSTAGRAM](https://instagram.com/nayabikram) | [FACEBOOK](https://www.facebook.com/NayabIkramPhotography/)"

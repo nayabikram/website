@@ -1,0 +1,196 @@
+body {
+  max-width: 800px;
+  padding: 1em;
+  line-height: 1.5em;
+  margin: 0 auto;
+}
+
+/* header and footer areas */
+.logo {
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 12px;
+  width: 40%;
+}
+
+.menu { 
+  padding: 0; 
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.menu li { 
+  display: inline; 
+}
+
+.article-meta, .menu a {
+  text-decoration: none;
+  color:rgba(107,107,107,.8);
+  padding: 5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 5px;
+}
+.menu, .article-meta, footer {
+   text-align: center; 
+  }
+#title { 
+  display: none; 
+}
+
+hr {
+  display: none;
+}
+
+.content {
+  padding-top: 20px;
+}
+
+.quote {
+  font-style: italic;
+}
+
+#inquiries {
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer-info { 
+  text-decoration: none; 
+  font-family: "proxima-nova";
+  color: rgba(107,107,107,.8);
+  padding-top: 20px;
+}
+
+/* Pretty Links */
+.current a{
+  color:#6cd5b8 !important;
+}
+
+/* Pretty Links Footer */
+
+.footer-info {
+  padding-top: 30px;
+  font-family: proxima-nova;
+}
+
+.footer-info a {
+  text-decoration: none;
+}
+.footer-info a:link {
+  color:#6cd5b8
+}      
+.footer-info a:hover {
+  color:rgba(107,107,107,.8);
+}
+
+.project-description a:link {
+  text-decoration: none;
+  color:#6cd5b8
+}      
+.project-description a:hover {
+  color:rgba(107,107,107,.8);
+}
+
+/* images */
+.pic{
+  padding-bottom: 20px;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+/* Video */
+
+.video-frame {
+  position: relative;
+  max-width:800px;
+  width: 100%;
+  height: 50%;
+  display: block;
+}
+
+.icon {
+  position: absolute;
+  text-align: center;
+  vertical-align: center;
+  top: 42%;
+  left: 48.5%;
+  font-size: 60px;
+  color: white;
+  z-index: 2;
+}
+
+#preview-image {
+  z-index: 1;
+  width: 100%;
+  float: left;
+  margin: 0 auto;
+}
+
+.player {
+  float: left;
+  z-index: -1;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+/* Description */
+.project-description {
+  font-size: 11px;
+  color:rgba(107,107,107,.8);
+  word-wrap: break-word;
+  font-family: "Helvetica Neue","Arial","sans-serif";
+  font-size: 11px;
+  line-height: 1.4em;
+  width: 94%;
+  margin: 0 auto;
+}
+
+/* Slideshow */
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* The thumbnails */
+.all-thumbnails {
+  padding: 22px 0 15px 0;
+}
+
+.thumbnail {
+  width: 6% !important;
+  margin: 0px 0px 10px;
+  display: inline-block;
+  opacity: .5;
+}
+
+.active, .thumbnail:hover {
+  opacity: 1;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
