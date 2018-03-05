@@ -2,7 +2,7 @@
 title:
 ---
 
-{{< figure src="/images/tree.jpg" class="pic" >}}
+<img src="/images/tree.jpg" class="pic"></img>
 
 <div class="project-description">
 <p>Part of the the body of work “In Between”, consists of potraits of a Salvadora Oleoides tree and a Pinetree, where I see parts of myself reflecting in the trees.The picture of the Salvadora Oleoides tree, was taken in Badshahi Mosque, in Lahore, Pakistan. While the photo of the Pinetree was taken in the countryside in Ostrobothnia, a region of Finland.
